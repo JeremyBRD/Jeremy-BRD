@@ -1,0 +1,31 @@
+project:
+
+  - name: "Brain to switch"
+    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1595417630/brain-to-switch_a0zxeu.jpg'
+    techno: "Application Rails"
+    langages: "html, erb, SCSS, JS, bootstrap"
+    date: "Mai 2020"
+    description: >
+      Application Rails réalisée en mai 2020
+    link: "https://brains-to-switch-elise584.herokuapp.com/"
+    path: '/brain-to-switch'
+
+  - name: "De Fil en Aiguille"
+    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1595417647/de-fil-en-aiguille_wrlhwb.jpg'
+    techno: "Application Rails"
+    langages: "html, erb, SCSS, JS, bootstrap"
+    date: "Juin 2020"
+    description: >
+      Application Rails réalisée en juin 2020
+    link: "https://www.de-fil-en-aiguille.eu/"
+    path: '/de-fil-en-aiguille'
+    
+  - name: "La Beauté autrement"
+    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1596535521/lbav_g2jfo1.png'
+    techno: "Application Rails"
+    langages: "html, erb, SCSS, JS"
+    date: "Juin 2020"
+    description: >
+      Site vitrine réalisé en juillet 2020
+    link: "https://www.labeauteautrement.fr"
+    path: '/la-beaute-autrement'

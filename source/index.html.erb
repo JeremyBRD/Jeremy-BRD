@@ -1,0 +1,26 @@
+---
+layout: layout
+title: Jérémy BRD
+navbar: navbar_home
+---
+<%= partial 'partials/banner' %>
+
+<!-- MAIN CONTENT -->
+<div id="mywork">
+  <div class="grid-container">
+    <% data.projects.project.reverse.each do |p| %>
+    <div class="project-card">
+      <a href=<%= p.path %>>
+        <img src="<%= p.image %>" alt="">
+
+        <div class="info-project-card">
+          <h3 class="info-project-card-title"><%= p.name %></h3>
+          <p class="info-project-card-description"><%= p.description %></p>
+        </div>
+      </a>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+<%= partial 'partials/footer' %>

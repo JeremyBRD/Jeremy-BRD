@@ -1,0 +1,174 @@
+@import '../config/variables.css.scss';
+
+.banner {
+  position: relative;
+  width: auto;
+  height: 110vh;
+  background: transparent;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h2, h3 {
+    font-family: $main_font;
+    line-height: 68px;
+    text-align: center;
+  }
+}
+
+.item1 {
+  position: absolute;
+  left: 0%;
+  right: 41.53%;
+  top: 0%;
+  bottom: 30%;
+  background: $light_yellow;
+  clip-path: polygon(2% 2%, 89% 2%, 85% 57%, 2% 97%);
+  transition: all .2s ease-in-out;
+
+  h2 {
+    position: absolute;
+    right: 40%;
+    top: 25%;
+    display: block;
+    color: $yellow;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border: 4px solid $green;
+  }
+}
+
+.item2 {
+  position: absolute;
+  left: 49.66%;
+  right: 0%;
+  top: 0%;
+  bottom: 26%;
+  background: $green;
+  clip-path: polygon(7% 2%, 98% 2%, 98% 98%, 2% 54%);
+    transition: all .2s ease-in-out;
+
+  h2 {
+    position: absolute;
+    left: 27%;
+    top: 25%;
+    display: block;
+    color: $light_yellow;
+    text-align: center;
+  }
+
+  &:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  border: 1.5px solid rgba(250, 250, 250, 1);
+  }
+}
+
+.item3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 39.71%;
+  bottom: 0%;
+  background: linear-gradient(to bottom, $yellow, 85%, transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(50% 3%, 99% 57%, 99% 100%, 1% 100%, 1% 50%);
+
+  h3 {
+    font-size: 1.5rem;
+    color: $green;
+  }
+
+  a {
+    font-size: 1.5rem;
+    color: $green;
+    font-weight: 600;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  span {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    color: $green;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner {
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item1{
+    display: none;
+  }
+
+  .item2 {
+    display: none;
+  }
+
+  .item3 {
+    display: none;
+  }
+
+  .itemphone1 {
+    background: #f5cb81;
+    clip-path: polygon(0 0, 100% 0, 100% 61%, 0 100%);
+    height: 15vh;
+  }
+
+  .itemphone2 {
+    position: relative;
+    bottom: 47px;
+    background: rgb(239, 231, 220);
+    clip-path: polygon(0% 11%, 100% 0%, 100% 93%, 0% 100%);
+    height: 56vh;
+
+    h2 {
+      color: #f5cc80;
+      position: relative;
+      top: 128px;
+    }
+  }
+
+  .itemphone3 {
+    position: relative;
+    bottom: 113px;
+    background: rgb(92, 131, 121);
+    height: 52vh;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 17%);
+
+    h3 {
+      position: relative;
+      top: 118px;
+      font-size: 2.3rem;
+      color: rgb(239, 231, 220);
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .itemphone1 {
+    display: none;
+  }
+
+  .itemphone2 {
+    display: none;
+  }
+
+  .itemphone3 {
+    display: none;
+  }
+}

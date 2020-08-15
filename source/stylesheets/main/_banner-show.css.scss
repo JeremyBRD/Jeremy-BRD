@@ -1,0 +1,100 @@
+.banner-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100vw;
+    height: 55vh;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+}
+
+.info-show-banner {
+  color: white;
+  position: absolute;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  padding: 45px 90px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-show-banner-title {
+  font-family: 'Rammetto One', cursive;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.info-show-banner-description {
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner-show-technical-infos {
+  position: absolute;
+  display: flex;
+  color: white;
+  width: 100vw;
+  justify-content: space-between;
+  top: 50vh;
+  padding: 0 1vw;
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+#picto {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 7px;
+  filter: none;
+}
+
+.techno {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+@media (max-width: 800px) {
+  .info-show-banner {
+    padding: 22px 22px;
+    max-width: 90vw;
+  }
+
+  .info-show-banner-title {
+    font-size: 25px;
+  }
+
+  .banner-show-technical-infos {
+    top: 43vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .techno {
+    margin-bottom: 13px;
+  }
+}
+
+@media (orientation: landscape) {
+
+  .banner-show-technical-infos {
+    top: 60vh;
+  }
+
+  .banner-show img {
+    height: 70vh;
+  }
+}

@@ -1,0 +1,49 @@
+.navbar-pages {
+  z-index: 1;
+  margin-left: 3vw;
+  margin-top: 3vh;
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: $light_yellow;
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    margin-left: 10px;
+    margin-top: 5px;
+    position: relative;
+    font-size: 1.3rem;
+  }
+
+  h2:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    transition: width 0.3s ease-out;
+    background: $light_yellow;
+    bottom: -3px;
+    left: auto;
+    right: 0;
+    border-radius: 25%;
+  }
+
+  &:hover h2:after{
+    width: 100%;
+    transition: width 0.3s ease-out;
+    right: auto;
+    left: 0;
+  }
+
+  &:hover a {
+    text-decoration: none;
+    color: $light_yellow;
+  }
+}

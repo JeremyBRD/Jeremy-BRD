@@ -1,0 +1,74 @@
+// @import '../config/variables.css.scss';
+
+// .banner {
+//   position: relative;
+//   width: auto;
+//   height: 110vh;
+//   background: #FFF;
+
+//   h2 {
+//     font-family: $main_font;
+//     font-size: 4vw;
+//     line-height: 68px;
+//   }
+// }
+
+// .item1 {
+//   position: absolute;
+//   left: 0%;
+//   right: 41.53%;
+//   top: 0%;
+//   bottom: 30%;
+//   background: $light_yellow;
+//   clip-path: polygon(0% 0%, 90% 0%, 85.5% 60%, 0% 105%);
+
+//   h2 {
+//     position: absolute;
+//     right: 14.9%;
+//     top: 42.4%;
+//     display: block;
+//     color: $yellow;
+//   }
+// }
+
+// .item2 {
+//   position: absolute;
+//   left: 49.66%;
+//   right: 0%;
+//   top: 0%;
+//   bottom: 26%;
+//   background: $green;
+//   clip-path: polygon(5.9% 0, 100% 0%, 100% 100%, 0% 61%);
+
+//   h2 {
+//     position: absolute;
+//     left: 2.19%;
+//     top: 45.72%;
+//     display: block;
+//     color: $light_yellow;
+//   }
+// }
+
+// .item3 {
+//   position: absolute;
+//   left: 0%;
+//   right: 0%;
+//   top: 39.71%;
+//   bottom: 0%;
+//   background: linear-gradient(to bottom, $yellow, 85%, $light_grey);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   clip-path: polygon(50% 1%, 100% 56%, 100% 100%, 0% 100%, 0% 50%);
+
+//   h2 {
+//     align-items: center;
+//     color: $green;
+//   }
+// }
+
+// .text-item3-banner{
+//   position: absolute;
+//   top: 16.72%;
+// }

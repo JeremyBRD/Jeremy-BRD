@@ -1,0 +1,17 @@
+---
+layout: layout
+title: Extensions VS Code
+---
+<div style="margin: 70px;">
+    <h2> Liste des extensions VS CODE : </h2>
+    <% data.extensions.extension.each do |p| %>
+    <ul>
+        <li><%= link_to  p.site, p.site, target: "_blank" %></li>
+    </ul>
+    <% end %>
+    <p>
+    Pour activer Emet (mac) : Code > Preferences > Settings > 
+    Taper Emet dans la barre de recherche, puis selectionner l'extension Emet, 
+    cocher la case en dessous de "Emmet: Trigger Expansion On Tab"
+    </p>
+</div>

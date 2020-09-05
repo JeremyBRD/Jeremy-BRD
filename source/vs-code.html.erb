@@ -3,15 +3,42 @@ layout: layout
 title: Extensions VS Code
 ---
 <div style="margin: 70px;">
-    <h2> Liste des extensions VS CODE : </h2>
-    <% data.extensions.extension.each do |p| %>
-    <ul>
-        <li><%= link_to  p.site, p.site, target: "_blank" %></li>
-    </ul>
-    <% end %>
-    <p>
-    Pour activer Emet (mac) : Code > Preferences > Settings > 
-    Taper Emet dans la barre de recherche, puis selectionner l'extension Emet, 
-    cocher la case en dessous de "Emmet: Trigger Expansion On Tab"
-    </p>
+  <h2>Salut à toi jeune codeur/se</h2>
+  <p>Si t'es ici c'est parce que tu veux passer sur VS code mais t'as la flème de chercher les extensions et config de setup</p>
+  <p>T'es au bon endroit 🚀</p>
+  <p>
+  Déjà quand tu télécharge VS le premier truc un peut chiant, c'est que les tabulations sont égales  4 espaces ... 
+  nous on en veut 2, donc première manip :
+  </p>
+  <p>code > preferences > stettings là tu arive au paneau de configurations, tu peux aussi y acceder avec "cmd" + " , "</p>
+  <p>tu tapes "tab" dans la barre de recherche et là tu as 2 choses à faire :</p>
+  <p>
+  1) Décocher "Editor : Detect Indentation"cette fonction n'est pas hyper pertinante c'est mieux d'avoir le controle de
+   ce que tu fais, ce serait dommaged'avoir des erreurs d'indentations qui ne dépende pas de toi ...
+  </p>
+  <p>
+  2) Il faut changer la valheur dans la section "Editor: Tab Size" à 2.
+  </p>
+  <h2>Liste des extensions à installer :</h2>
+  <p>Regarde a quoi elle servent et comment les utiliser avant de les installer 👀</p>
+  <% data.extensions.extension.each do |p| %>
+  <ul>
+    <li><%= link_to  p.site, p.site, target: "_blank" %></li>
+  </ul>
+  <% end %>
+  <p>
+  Pour activer l'expension des abréviations Emet avec la touche Tab : Code > Preferences > Settings > 
+  Taper Emet dans la barre de recherche, puis selectionner l'extension Emet, 
+  cocher la case en dessous de "Emmet: Trigger Expansion On Tab"
+  </p>
+  <p>
+  Il y a aussi un problème qui va vite t'embêter c'est que Tabnine (qui est vraiment indispensable selon moi) 
+  prendra la touche Tab pour selectionner sa proposition, du coup cela empêche totalement le fonctionnememnt de Emet.
+  </p>
+  <p>
+  Allez dans code > Preferences > Keyboard Shortcuts , Une fois là dans la barre de recherche taper "acceptSelectedSuggestion"
+  ici vous trouverez une option ayant ce nom avec le racourci clavier "Tab", changez le avec celui de votre choix. ex "control" + "return"
+  </p>
+  <p>Normalement à ce stade vous avez un setup correct pour démarer sur VS code</p>
+  <p>Bon vent à tous ! ⛵️</p>
 </div>

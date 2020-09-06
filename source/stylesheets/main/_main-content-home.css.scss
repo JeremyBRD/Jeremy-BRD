@@ -117,11 +117,19 @@ a:hover .info-project-card {
     justify-content: space-around;
   }
 
-  .project-card{
+  .project-card {
     margin-bottom: 40px;
   }
 
   .project-card a img {
+    width: 75vw;
+  }
+
+  .project-last-card {
+    margin-bottom: 40px;
+  }
+
+  .project-last-card a img {
     width: 75vw;
   }
 

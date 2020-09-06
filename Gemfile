@@ -8,3 +8,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
 gem 'bh', '~> 1.3'
 gem 'dotenv'
+gem 'pry-byebug', '~> 3.9'

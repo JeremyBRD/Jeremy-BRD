@@ -7,20 +7,50 @@ navbar: navbar_home
 
 <!-- MAIN CONTENT -->
 <div id="mywork">
-  <div class="grid-container">
-    <% data.projects.project.reverse.each do |p| %>
-    <div class="project-card">
-      <a href=<%= p.path %>>
-        <img src="<%= p.image %>" alt="">
+  <% if data.projects.project.length.even? %>
+    <div class="grid-container">
+      <% data.projects.project.reverse.each do |p| %>
+        <div class="project-card">
+          <a href=<%= p.path %>>
+            <img src="<%= p.image %>" alt="project image">
+
+            <div class="info-project-card">
+              <h3 class="info-project-card-title"><%= p.name %></h3>
+              <p class="info-project-card-description"><%= p.description %></p>
+            </div>
+          </a>
+        </div>
+      <% end %>
+    </div>
+  <% else %>
+    <% proj = data.projects.project.reverse %>
+    <% proj_last = proj.last %>
+    <% proj_grid = proj.first(proj.length - 1) %>
+    <div class="grid-container">
+      <% proj_grid.each do |p| %>
+        <div class="project-card">
+          <a href=<%= p.path %>>
+            <img src="<%= p.image %>" alt="project image">
+            
+            <div class="info-project-card">
+              <h3 class="info-project-card-title"><%= p.name %></h3>
+              <p class="info-project-card-description"><%= p.description %></p>
+            </div>
+          </a>
+        </div>
+      <% end %>
+    </div>
+    <div class="project-last-card">
+      <a href=<%= proj_last.path %>>
+        <img src="<%= proj_last.image %>" alt="project image">
 
         <div class="info-project-card">
-          <h3 class="info-project-card-title"><%= p.name %></h3>
-          <p class="info-project-card-description"><%= p.description %></p>
+          <h3 class="info-project-card-title"><%= proj_last.name %></h3>
+          <p class="info-project-card-description"><%= proj_last.description %></p>
         </div>
       </a>
     </div>
-    <% end %>
-  </div>
+  <% end %>
 </div>
 
 <%= partial 'partials/footer' %>

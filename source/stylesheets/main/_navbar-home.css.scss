@@ -46,13 +46,14 @@
   &:after {
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 0;
     transition: width 0.3s ease-out;
     background: $light_yellow;
     bottom: -2px;
     left: auto;
     right: 0;
+    border-radius: 25%;
   }
 
   &:hover {

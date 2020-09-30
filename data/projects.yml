@@ -28,5 +28,15 @@ project:
     description: >
       Site vitrine réalisé en juillet 2020
     link: "https://www.labeauteautrement.fr"
-    path: '/la-beaute-autrement'
+    path: '/la-beaute-autrement'    
+
+  - name: "Room"
+    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1601474794/desktop-image-hero-1_ekm2p1.jpg'
+    techno: ""
+    langages: "html, SCSS, JS"
+    date: "septembre 2020"
+    description: >
+      Prototye de Site vitrine réalisé en septembre 2020
+    link: "https://competent-elion-e81f08.netlify.app/"
+    path: '/room'
     

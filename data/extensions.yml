@@ -17,5 +17,6 @@ extension:
   - site: https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby
   - site: https://marketplace.visualstudio.com/items?itemName=bung87.vscode-gemfile
   - site: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+  - site: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
   - site: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
   

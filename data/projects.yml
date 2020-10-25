@@ -40,13 +40,13 @@ project:
     link: "https://competent-elion-e81f08.netlify.app/"
     path: '/room'
 
-  - name: "PACMAN"
-    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1603638769/pacman-background_tqj5qj.png'
-    techno: "node.js"
-    langages: "html, SCSS, JS"
-    date: "octobre 2020"
-    description: >
-      Challenge personel réalisé en octobre 2020
-    link: "https://admiring-boyd-44650f.netlify.app/"
-    path: '/pacman'
+  # - name: "PACMAN"
+  #   image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1603638769/pacman-background_tqj5qj.png'
+  #   techno: "node.js"
+  #   langages: "html, SCSS, JS"
+  #   date: "octobre 2020"
+  #   description: >
+  #     Challenge personel réalisé en octobre 2020
+  #   link: "https://admiring-boyd-44650f.netlify.app/"
+  #   path: '/pacman'
     

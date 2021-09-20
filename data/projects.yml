@@ -50,3 +50,12 @@ project:
     link: "https://admiring-boyd-44650f.netlify.app/"
     path: '/pacman'
   
+  - name: "Fruneau Avocat"
+    image: 'https://res.cloudinary.com/dhgfifwgd/image/upload/v1632121450/fruneau-avocat1_hkkqeq.png'
+    techno: "Application Rails"
+    langages: "html, erb, SCSS, JS, bootstrap"
+    date: "Décembre 2020"
+    description: >
+      Site vitrine réalisé en décambre 2020
+    link: "https://www.fruneau-avocat.com/"
+    path: '/fruneau-avocat'

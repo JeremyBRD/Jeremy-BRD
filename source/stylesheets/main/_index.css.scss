@@ -9,3 +9,8 @@
 @import "./info-section-show.css.scss";
 @import "./about.css.scss";
 @import "./footer.css.scss";
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
